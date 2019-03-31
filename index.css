@@ -1,7 +1,6 @@
 .container {
   width: 960px;
   background: lightskyblue;
-  position: relative;
   margin: 0 auto;
 }
 .logo-web {
@@ -12,11 +11,13 @@
   width: 152px;
   text-indent: 9999px;
 }
-.navigation ul li {
-  display: inline-block;
-  margin-right: 10px;
-  margin-bottom: 0;
+.banner {
+  height: 250px;
+  background-image: url(/images/background5.jpg);
+  background-size: cover;
+  background-position: 0 -20px;
 }
+
 .cf:before,
 .cf:after {
   content: " "; /* 1 */
