@@ -1,0 +1,32 @@
+.container {
+  width: 960px;
+  background: lightskyblue;
+  position: relative;
+  margin: 0 auto;
+}
+.logo-web {
+  display: inline-block;
+  background-image: url(/images/logo.jpg);
+  margin-top: 20px;
+  height: 40px;
+  width: 152px;
+  text-indent: 9999px;
+}
+.navigation ul li {
+  display: inline-block;
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
