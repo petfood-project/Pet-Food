@@ -60,6 +60,63 @@ h1 .av {
 .tc-right p {
   text-align: center;
 }
+.pet-container {
+  display: inline-block;
+}
+.pet-container img {
+  height: 70px;
+  width: 70px;
+  margin: 50px 20px;
+  padding-left: 60px;
+}
+.foods {
+  display: inline-block;
+}
+.foods img {
+  height: 200px;
+  width: 130px;
+  margin-right: 40px;
+  padding-left: 50px;
+}
+.brands {
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #f0f0f0;
+}
+h1 .brands {
+  margin-top: 20px;
+}
+.brands img {
+  display: inline-block;
+  margin-left: 10px;
+}
+h1 .string-brands {
+  color: #fb6000;
+}
+footer {
+  position: relative;
+  max-width: 960px;
+  margin: 0 auto;
+  position: relative;
+  background-color: #3a3a3a;
+}
+.petfood {
+  position: relative;
+  float: left;
+}
+.petgallery {
+  position: relative;
+  float: left;
+}
+.pettutorial {
+  position: relative;
+  float: left;
+}
+.about {
+  position: relative;
+  float: left;
+}
 /* clearfix */
 .cf:before,
 .cf:after {
