@@ -1,4 +1,4 @@
-.container-nav {
+.container {
   max-width: 960px;
   margin: 0 auto;
   position: relative;
@@ -41,6 +41,24 @@ h1 .av {
 .partner-container img {
   height: 100px;
   margin: 50px 10px 0 23px;
+}
+.tutorial-container img {
+  height: 200px;
+  width: 400px;
+}
+.tc-left {
+  margin-left: 50px;
+  float: left;
+}
+.tc-left p {
+  text-align: center;
+}
+.tc-right {
+  float: right;
+  margin-right: 50px;
+}
+.tc-right p {
+  text-align: center;
 }
 /* clearfix */
 .cf:before,
