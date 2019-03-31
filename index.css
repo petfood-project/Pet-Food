@@ -101,21 +101,35 @@ footer {
   position: relative;
   background-color: #3a3a3a;
 }
-.petfood {
-  position: relative;
-  float: left;
-}
-.petgallery {
-  position: relative;
-  float: left;
-}
-.pettutorial {
-  position: relative;
-  float: left;
-}
+.petfood,
+.petgallery,
+.pettutorial,
 .about {
   position: relative;
   float: left;
+  margin-left: 10px;
+  color: #fb6000;
+  list-style-type: none;
+}
+footer b {
+  margin-left: 50px;
+}
+footer ul li {
+  list-style-type: none;
+}
+.social ul li img {
+  height: 30px;
+  width: 30px;
+  background-size: cover;
+  margin-left: 30px;
+}
+.company {
+  float: right;
+}
+.company img {
+  height: 30px;
+  width: 40px;
+  background-size: cover;
 }
 /* clearfix */
 .cf:before,
