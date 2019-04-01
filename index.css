@@ -11,7 +11,14 @@
   z-index: 1000;
   background-color: white;
 }
+.navigation-logo {
+  margin-top: 15px;
+}
 .navigation-right {
+  display: flex;
+  align-items: center;
+}
+.navigation-menu {
   display: flex;
 }
 .navigation-menu a img {
@@ -24,6 +31,10 @@
   flex-direction: column;
   margin-left: 20px;
 }
+.navigation-button input {
+  font-size: 40px;
+}
+
 .banner {
   margin-top: 140px;
   height: 320px;
@@ -33,6 +44,8 @@
 }
 .partner-container {
   position: relative;
+  display: flex;
+  justify-content: center;
   background-color: #f0f0f0;
   height: 200px;
 }
@@ -43,30 +56,36 @@ h1 {
 h1 .available {
   color: #fb6000;
 }
+h1 .TUTORIAL {
+  color: #fb6000;
+}
 .partner-container img {
   height: 100px;
   margin: 50px 10px 0 23px;
 }
 .tutorial-container img {
+  display: flex;
+  justify-content: center;
   height: 200px;
   width: 400px;
 }
-.tc-left {
-  margin-left: 50px;
+.tutorial-container-left {
+  margin-left: 150px;
   float: left;
 }
-.tc-left p {
+.tutorial-container-left p {
   text-align: center;
 }
-.tc-right {
+.tutorial-container-right {
   float: right;
-  margin-right: 50px;
+  margin-right: 150px;
 }
-.tc-right p {
+.tutorial-container-right p {
   text-align: center;
 }
 .pet-container {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
 }
 .pet-container img {
   height: 70px;
@@ -75,7 +94,8 @@ h1 .available {
   padding-left: 60px;
 }
 .foods {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
 }
 .foods img {
   height: 200px;
@@ -84,7 +104,6 @@ h1 .available {
   padding-left: 50px;
 }
 .brands {
-  max-width: 960px;
   margin: 0 auto;
   position: relative;
   background-color: #f0f0f0;
@@ -93,16 +112,13 @@ h1 .brands {
   margin-top: 20px;
 }
 .brands img {
-  display: inline-block;
-  margin-left: 10px;
+  margin-left: 50px;
 }
 h1 .string-brands {
   color: #fb6000;
 }
 footer {
-  position: relative;
-  max-width: 960px;
-  margin: 0 auto;
+  display: flex;
   position: relative;
   background-color: #3a3a3a;
 }
@@ -122,6 +138,13 @@ footer b {
 footer ul li {
   list-style-type: none;
 }
+footer .petfood {
+  margin-left: 80px;
+}
+.social {
+  display: flex;
+  justify-content: flex-start;
+}
 .social ul li img {
   height: 30px;
   width: 30px;
@@ -129,7 +152,9 @@ footer ul li {
   margin-left: 30px;
 }
 .company {
-  float: right;
+  margin-left: 260px;
+  display: flex;
+  flex-direction: column;
 }
 .company img {
   height: 30px;
