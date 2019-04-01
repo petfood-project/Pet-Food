@@ -1,23 +1,19 @@
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-  position: relative;
-}
-.logo-web {
-  position: absolute;
-  float: left;
-  background-image: url(/images/logo.jpg);
-  margin-top: 20px;
-  height: 40px;
-  width: 152px;
-}
 .navigation {
-  float: right;
-}
-.nav-top {
-  position: absolute;
   display: flex;
-  flex-direction: row;
+  justify-content: space-between;
+}
+.navigation-right {
+  display: flex;
+}
+.navigation-menu a img {
+  height: 40px;
+  width: 40px;
+  background-size: cover;
+}
+.navigation-button {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
 }
 .banner {
   margin-top: 140px;
@@ -35,7 +31,7 @@ h1 {
   text-align: center;
 }
 
-h1 .av {
+h1 .available {
   color: #fb6000;
 }
 .partner-container img {
