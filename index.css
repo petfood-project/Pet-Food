@@ -7,15 +7,16 @@
   position: fixed;
   top: 0;
   width: 100%;
-  height: 70px;
+  height: 100px;
   z-index: 1000;
-  background-color: white;
+  background-color: rgba(190, 190, 135, 0.479);
 }
 .navigation-logo {
   margin-top: 15px;
 }
 .navigation-right {
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 .navigation-menu {
@@ -25,6 +26,9 @@
   height: 40px;
   width: 40px;
   background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 .navigation-button {
   display: flex;
@@ -104,7 +108,7 @@ h1 .TUTORIAL {
   padding-left: 50px;
 }
 .brands {
-  margin: 0 auto;
+  margin: 0 -10px;
   position: relative;
   background-color: #f0f0f0;
 }
@@ -119,6 +123,7 @@ h1 .string-brands {
 }
 
 .footer {
+  margin: 0 -10px;
   display: flex;
   background-color: #3a3a3a;
   color: white;
