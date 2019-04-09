@@ -117,11 +117,20 @@ h1 .brands {
 h1 .string-brands {
   color: #fb6000;
 }
-footer {
+
+.footer {
   display: flex;
-  position: relative;
   background-color: #3a3a3a;
+  color: white;
+  justify-content: space-around;
+  padding-top: 20px;
 }
+
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
 .petfood,
 .petgallery,
 .pettutorial,
@@ -133,7 +142,7 @@ footer {
   list-style-type: none;
 }
 footer b {
-  margin-left: 50px;
+  margin-left: 40px;
 }
 footer ul li {
   list-style-type: none;
